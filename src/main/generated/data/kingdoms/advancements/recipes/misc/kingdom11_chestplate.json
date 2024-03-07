@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kingdom11_essence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kingdoms:kingdom11_essence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:kingdom11_chestplate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_kingdom11_essence"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:kingdom11_chestplate"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kingdom5_essence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kingdoms:kingdom5_essence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:kingdom5_shield"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_kingdom5_essence"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:kingdom5_shield"
+    ]
+  }
+}

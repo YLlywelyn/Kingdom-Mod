@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kingdoms:kingdom8_essence"
+    },
+    {
+      "item": "minecraft:netherite_leggings"
+    }
+  ],
+  "result": {
+    "item": "kingdoms:kingdom8_leggings"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "kingdoms:item/kingdom4_bow",
+    "textures": {
+        "layer0": "kingdoms:item/kingdom4_bow_pulling_0"
+    }
+}

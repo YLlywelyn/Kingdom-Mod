@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import uk.fallingsloth.mc.items.ModItemGroups;
+import uk.fallingsloth.mc.items.ModItems;
 
 public class Kingdoms implements ModInitializer {
 	public static final String MOD_ID = "kingdoms";
@@ -12,6 +14,7 @@ public class Kingdoms implements ModInitializer {
 	@Override
 	public void onInitialize()
 	{
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }

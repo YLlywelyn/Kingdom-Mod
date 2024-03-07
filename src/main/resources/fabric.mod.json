@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "kingdoms",
+	"version": "${version}",
+	"name": "Kingdoms",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Y Llywelyn"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ISTSL-NR 1.0",
+	"icon": "assets/kingdoms/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"uk.fallingsloth.mc.Kingdoms"
+		],
+		"client": [
+			"uk.fallingsloth.mc.KingdomsClient"
+		],
+		"fabric-datagen": [
+			"uk.fallingsloth.mc.KingdomsDataGenerator"
+		]
+	},
+	"mixins": [
+		"kingdoms.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
